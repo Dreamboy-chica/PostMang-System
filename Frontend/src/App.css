@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+  }
+  nav{
+    width: 100%;
+    height: 12vh;
+    background-color:rgb(9,8,14);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  nav a{
+    color:rgb(206, 204, 204);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  nav a:hover{
+    color:red;
+  }
+  .home{
+    width: 100%;
+    height:90vh ;
+    display: flex;
+  }
+  .submenu{
+    width: 20%;
+    height: 100%;
+    background-color:rgb(118, 152, 185);
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    box-sizing: border-box;
+    padding-left:15px;
+  }
+  .submenu a{
+    color:white;
+    font-size: 18px;
+    text-decoration:none;
+    padding-top:15px;
+  }
+
+  .submenu a:hover{
+   color:blue;
+  }
+
+/* for making the active button */
+  .active {
+    color:red;
+    font-weight: bold;
+
+  }
+
+  .submenu .active {
+    font-weight: bold;
+    color: blue; /* Active link color */
+  }
+  
+ 
+  
