@@ -33,7 +33,7 @@ let getdonebyme = async (req, res) => {
     let data = await pm.find({ uid: req.params.uid });
     res.json(data);
   } catch (err) {
-    res.json({ message: "Error in Fetching data" });
+    res.json({ message: "Error in Fetching Data" });
   }
 };
 module.exports = { addpost, getposts, getbycat, getdonebyme };
